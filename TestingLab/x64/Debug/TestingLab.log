@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  TestingLab.cpp
+C:\Users\duda_\Desktop\TestingLab-students\Include\Matrix.h(23,17): warning C4251: 'Matrix::data': class 'std::vector<double,std::allocator<_Ty>>' needs to have dll-interface to be used by clients of class 'Matrix'
+          with
+          [
+              _Ty=double
+          ]
+C:\Users\duda_\Desktop\TestingLab-students\Include\Matrix.h(23): message : see declaration of 'std::vector<double,std::allocator<_Ty>>'
+          with
+          [
+              _Ty=double
+          ]
+  TestingLab.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  TestingLab.vcxproj -> C:\Users\duda_\Desktop\TestingLab-students\Include\Debug\x64\TestingLab.exe
